@@ -1,0 +1,315 @@
+body {
+    background-image: url("assets/BG.png");
+    color: white;
+    margin: 0;
+    max-width: 100%;
+    font-size: 16px;
+    text-align: center;
+}
+.bodyContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+  margin: 0 5%;
+}
+@font-face {
+    font-family: Lexend;
+    src: url('assets/Lexend-VariableFont_wght.ttf');
+}
+@font-face {
+  font-family: 'Inter Extra Bold';
+  src: url('assets/Inter Extra Bold 800.otf');
+}
+@font-face {
+  font-family: 'Satoshi Medium';
+  src: url('assets/Satoshi-Medium.otf');
+}
+#submit {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  margin: 6px;
+  text-align: center;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    font-family: 'Inter Extra Bold';
+}
+#socialMedia img {
+  margin-right: 1.5em;
+  margin-top: 1em;
+}
+
+.why {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4em;
+    margin-right: 4em;
+}
+
+#contentBox5 .why p {
+  margin: 0;
+  line-height: 1.5;
+  text-align: center;
+}
+#contentBox5 img {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    max-width: 100px; /* subject to change*/
+    height: 100px; /* subject to change*/
+    /*margin-bottom: 10px; */
+}
+#contentBox1 {
+  flex-direction: column;
+  justify-content: center;
+  flex-direction: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 6em;
+  width: 67%;
+}
+#contentBox1 h1 {
+  color: black;
+}
+#subForm {
+  background-color: white;
+  border: solid 1px white;
+  border-radius: .1em 20px 20px;
+  opacity: 0.84;
+  margin-right: 1.5em;
+}
+#contentBox1, #contentBox2, #contentBox3, #contentBox4 {
+    /*background-image: url("assets/bgCard.png");*/ /*Keeping cardview background just in case*/
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.2);
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 15%;
+    font-size: large;
+    border-radius: 4px;
+    max-width: 80%;
+}
+#contentBox1, #contentBox2, #contentBox3, #contentBox4, #contentBox5 {
+  margin-left: 8%;
+  margin-right: 8%;
+  border-radius: 2em 2em 2em 2em;
+}
+.align {
+    display: flex;
+}
+
+#bottomForm {
+  align-self: center;
+  color: white;
+  background-color: transparent;
+}
+
+#bottomBar {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    height: 4em;
+    padding: 2em;
+    margin-top: 1em;
+    width: 100%;
+    position: static;
+    bottom: 0;
+}
+#topBar {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3.0em;
+    padding: 2em;
+    margin-bottom: 1em;
+    width: 100%;
+    position: static;
+    top: 0;
+}
+#contentBox5 {
+   /* background-image: url("assets/cardBG.png");*/
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.2);
+    background-size: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    position: relative; /*subject to change*/
+    padding: 3em;
+    text-align: center;
+    
+}
+#contentBox5 h2 {
+    position: absolute; /* Set the position of the h2 element to absolute */
+    top: 0; /* Position it at the top of the container */
+    left: 50%; /* Center it horizontally */
+    transform: translateX(-50%);
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: .5em;
+    margin-top: .5em;
+  }
+  #contentBox5 h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  #contentBox6 {
+    display: flex;
+    align-items: center;
+    margin-top: 3em;
+    color: black;
+  }
+  .left-content {
+    flex: 1;
+    padding: 50px 20px 0 0px;  /*add horizontal padding */
+  }
+  h3 {
+    font-family: 'Satoshi Medium';
+  }
+  .right-content {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .right-content h2 {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1em;
+  }
+  
+  .right-content p {
+    text-align: center;
+    margin-bottom: 1em;
+  }
+  
+  .right-content form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .right-content input[type="email"] {
+    padding: 0.5em;
+    border: none;
+    border-radius: 0.25em;
+    
+    width: 100%;
+    max-width: 20em;
+  }
+  
+  .right-content button {
+    color: black ;
+    padding: 0.5em 1em;
+    border: none;
+  }
+p:not(.why) {
+    padding: 0;
+    font-size: 1.2rem;
+    text-align: justify;
+    font-family: 'Lexend';
+    margin-left: 2em;
+    margin-right: 2em; /* add horizontal margin */
+}
+button {
+  font-family: 'Satoshi Medium';
+  border-radius: .1em 20px 20px;
+}
+#contact {
+  background-color: white;
+}
+#bottomBar button {
+  border-radius: .1em 20px 20px;
+  padding: 3px;
+  height: 4em;
+  width: 10em;
+  font-weight: bold;
+}
+.animals {
+  object-fit: contain;
+}
+/* Mobile Styles */
+@media screen and (max-width: 768px) {
+    body {
+      font-size: 16px;
+    }
+    h1 {
+      font-size: 2.5em;
+    }
+    h2 {
+      font-size: 1.5em;
+      margin-bottom: 1em;
+    }
+    #contentBox1 {
+      padding: 40px;
+    }
+    #contentBox2 .left-content {
+      order: 1;
+    }
+    #contentBox2 img {
+      order: 2;
+      width: 80%;
+      max-width: 300px;
+    }
+    #contentBox2 img, #contentBox3 img, #contentBox4 img {
+      max-height: 20em;
+    }
+    #contentBox2, #contentBox3, #contentBox4 {
+    }
+    #contentBox5 {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    #contentBox5 img {
+      width: 80%;
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 1em;
+    }
+    #contentBox5 h2 {
+      position: static;
+      font-size: 1.5em;
+      margin-bottom: 1em;
+    }
+    #contentBox6 {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    .right-content {
+      margin-top: 2em;
+      margin-bottom: 2em;
+    }
+    .right-content h2 {
+      font-size: 1.5em;
+      margin-bottom: 1em;
+    }
+    .right-content p {
+      margin-bottom: 1em;
+    }
+    .right-content input[type="email"] {
+      width: 80%;
+      max-width: none;
+    }
+  }
