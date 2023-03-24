@@ -248,68 +248,26 @@ button {
 .animals {
   object-fit: contain;
 }
-/* Mobile Styles */
-@media screen and (max-width: 768px) {
-    body {
-      font-size: 16px;
-    }
-    h1 {
-      font-size: 2.5em;
-    }
-    h2 {
-      font-size: 1.5em;
-      margin-bottom: 1em;
-    }
-    #contentBox1 {
-      padding: 40px;
-    }
-    #contentBox2 .left-content {
-      order: 1;
-    }
-    #contentBox2 img {
-      order: 2;
-      width: 80%;
-      max-width: 300px;
-    }
-    #contentBox2 img, #contentBox3 img, #contentBox4 img {
-      max-height: 20em;
-    }
-    #contentBox2, #contentBox3, #contentBox4 {
-    }
-    #contentBox5 {
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-    }
-    #contentBox5 img {
-      width: 80%;
-      max-width: 100%;
-      height: auto;
-      margin-bottom: 1em;
-    }
-    #contentBox5 h2 {
-      position: static;
-      font-size: 1.5em;
-      margin-bottom: 1em;
-    }
-    #contentBox6 {
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-    }
-    .right-content {
-      margin-top: 2em;
-      margin-bottom: 2em;
-    }
-    .right-content h2 {
-      font-size: 1.5em;
-      margin-bottom: 1em;
-    }
-    .right-content p {
-      margin-bottom: 1em;
-    }
-    .right-content input[type="email"] {
-      width: 80%;
-      max-width: none;
-    }
-  }
+
+/* CSS for smaller screens */
+@media screen and (max-width: 1200px) {
+  /* Adjust the font sizes */
+  h1 { font-size: 24px; }
+  h2 { font-size: 20px; }
+  h3 { font-size: 18px; }
+  p { font-size: 16px; }
+  /* Center the top logo */
+  .topLogo { display: block; margin: 0 auto; }
+  /* Remove the social media icons */
+  #socialMedia { display: none; }
+  /* Adjust the layout of contentBox2, contentBox3, and contentBox4 */
+  .animals { display: none; }
+  .left-content { width: 100%; }
+  /* Adjust the layout of contentBox5 */
+  .why { width: 100%; text-align: center; }
+  /* Adjust the layout of contentBox6 */
+  .footerPic { width: 100%; }
+  .right-content { text-align: center; }
+}
+
+
