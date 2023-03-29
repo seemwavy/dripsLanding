@@ -50,7 +50,7 @@ h2:not(#contentBox5 #contentBox6) {
   padding: 0 1.5em;
 }
 #socialMedia {
-  margin-bottom: 3.5em;
+  margin-bottom: .5em;
   margin-top: 2em;
 }
 .why {
@@ -81,6 +81,7 @@ h2:not(#contentBox5 #contentBox6) {
   text-align: center;
   padding: 6em 6em 0 6em;
   width: 67%;
+  padding-bottom: 1em;
 }
 #contentBox1 h1 {
   color: black;
