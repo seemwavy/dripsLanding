@@ -13,8 +13,12 @@ body {
   max-width: 100%;
   margin: 0 5%;
 }
+.smallIcon {
+  width: 2em;
+  height: 2em;
+}
 @font-face {
-    font-family: Lexend;
+    font-family: 'Lexend';
     src: url('assets/Lexend-VariableFont_wght.ttf');
 }
 @font-face {
@@ -85,6 +89,7 @@ h2:not(#contentBox5 #contentBox6) {
 }
 #contentBox1 h1 {
   color: black;
+  font-family: 'inter Extra Bold';
 }
 #subForm {
   background-color: white;
@@ -107,7 +112,7 @@ h2:not(#contentBox5 #contentBox6) {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    text-align: left;
     margin-bottom: 15%;
     font-size: large;
     max-width: 80%;
