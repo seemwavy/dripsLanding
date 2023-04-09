@@ -344,6 +344,10 @@ object-fit: contain;
   .left-content {
     margin-bottom: 20px;
   }
+  .right-content {
+    justify-content: center;
+    align-items: center;
+  }
 
   .footerPic {
     max-width: 100%;
