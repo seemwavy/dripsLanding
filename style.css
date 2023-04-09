@@ -336,6 +336,10 @@ object-fit: contain;
     justify-content: center;
     align-items: center;
   }
+  #contentBox6 h2 {
+    text-align: center;
+    font-size: 18px;
+  }
 
   .left-content {
     margin-bottom: 20px;
