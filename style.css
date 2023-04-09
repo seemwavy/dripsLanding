@@ -361,12 +361,16 @@ object-fit: contain;
   #contentBox6 .right-content {
    margin-left: 3em;
   }
+  form {
+    max-width: fit-content;
+  }
   #subForm {
     width: 10em;
     max-width: fit-content;
   }
   #bottomBar {
-   padding: 2em;
+   display: flex;
+   justify-content: space-between;
   }
   body {
     overflow-x: hidden;
