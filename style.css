@@ -353,21 +353,14 @@ object-fit: contain;
   .footerPic {
     max-width: 100%;
   }
-  /*Option 1 
-  #contentBox6 p  {
-    align-self: flex-end;
-  }*/
-  /*Option 2 */
   #contentBox6 .right-content {
    margin-left: 3em;
+   max-width: fit-content;
   }
   form {
     max-width: fit-content;
   }
-  #subForm {
-    width: 10em;
-    max-width: fit-content;
-  }
+  
   #bottomBar {
    display: flex;
    justify-content: space-between;
