@@ -339,6 +339,7 @@ object-fit: contain;
   #contentBox6 h2 {
     text-align: center;
     font-size: 18px;
+    max-width: fit-content;
   }
 
   .left-content {
@@ -352,9 +353,13 @@ object-fit: contain;
   .footerPic {
     max-width: 100%;
   }
-  #contentBox6 h2 {
-    max-width: fit-content;
-
+  /*Option 1 
+  #contentBox6 p  {
+    align-self: flex-end;
+  }*/
+  /*Option 2 */
+  #contentBox6 .right-content {
+   margin-left: 3em;
   }
   #subForm {
     width: 15em;
