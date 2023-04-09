@@ -357,13 +357,17 @@ object-fit: contain;
    margin-left: 3em;
    max-width: fit-content;
   }
-  form {
-    max-width: fit-content;
+  #submit {
+    margin-top: 1em;
   }
   
   #bottomBar {
    display: flex;
    justify-content: space-between;
+  }
+  #bottomBar img {
+    width: 20%;
+    height: 40%;
   }
   body {
     overflow-x: hidden;
@@ -376,6 +380,16 @@ object-fit: contain;
   #topBar, #bottomBar, #contentBox1, #contentBox2, #contentBox3, #contentBox4, #contentBox5, #contentBox6 {
     max-width: 100%;
     padding: 2em;
+  }
+  #contact {
+    width: 15%;
+    height: 30%;
+  }
+  #subForm {
+    width: 60%;
+  }
+  #subscribe {
+    width: 50%;
   }
 }
 
