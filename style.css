@@ -362,7 +362,7 @@ object-fit: contain;
    margin-left: 3em;
   }
   #subForm {
-    width: 15em;
+    width: 10em;
     max-width: fit-content;
   }
   #bottomBar {
